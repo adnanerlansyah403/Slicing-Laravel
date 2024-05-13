@@ -13,7 +13,7 @@
         <span>{{ $product['price'] }}K</span>
     </div>
     <div class="card-actions">
-        <x-product.tags :tags="$product['tags']" />
+        <x-product.tags :tags="$product['tags']" color="red" />
         {{-- <ul>
             <li class="active">
                 <a href="#">Hot</a>
